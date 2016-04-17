@@ -12,7 +12,7 @@
   Author: Ben Spaulding - 2016
   
 */
-
+--Select needed data.  Select * is usually a bad idea
 select PP.*, SP.*
 from Populated_Places PP
 inner join States_Provinces SP with(Index(geom_sidx))
