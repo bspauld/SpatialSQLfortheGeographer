@@ -3,7 +3,7 @@ Sample data and scripts using Microsoft spatial SQL. Code developed using SQL Se
 
 All scripts and tables used here are based on the <a href="https://msdn.microsoft.com/en-us/library/cc280487.aspx">GEOMETRY data type</a>
 
-Data provided in the /Data folder to be used in script tutorials.  All data originally downloaded from <a href="http://www.naturalearthdata.com/">Natural Earth's awesome website</a>
+Data used in scripts and tutorials can be downloaded <a href="http://www.gisdoctor.com/downloads/Tutorial_Spatial_Data.zip">here (it's a 28mb zip)</a>.  All data originally downloaded from <a href="http://www.naturalearthdata.com/">Natural Earth's awesome website</a>
 
 A number of tutorials are available from GISDoctor.com
 
