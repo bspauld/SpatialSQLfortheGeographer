@@ -1,6 +1,8 @@
 # SpatialSQLfortheGeographer
 Sample data and scripts using Microsoft spatial SQL. Code developed using SQL Server 2008 R2, but everything still works as of April 2016. Any suggestions or improvements are welcome.
 
+All scripts and tables used here are based on the <a href="https://msdn.microsoft.com/en-us/library/cc280487.aspx">GEOMETRY data type</a>
+
 Data provided in the /Data folder to be used in script tutorials.  All data originally downloaded from <a href="http://www.naturalearthdata.com/">Natural Earth's awesome website</a>
 
 A number of tutorials are available from GISDoctor.com
