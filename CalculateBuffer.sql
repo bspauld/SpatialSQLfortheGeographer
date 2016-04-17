@@ -13,7 +13,7 @@
   Author: Ben Spaulding - 2016
   
 */
-
+--Create buffer
 select geom.STBuffer(0.05) as buffer
 from dbo.States_Provinces
 where name_1 =  'Massachusetts'
