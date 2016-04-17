@@ -16,6 +16,7 @@
 select U.Region_Name, Centroid.STY as Longitude,
 Centroid.STX as Latidude
  from
-(	 select geom.STCentroid() as Centroid, NAME as Region_Name
+(	--select STCentroid for each geom 
+	select geom.STCentroid() as Centroid, NAME as Region_Name
 	 from dbo.world_countries
 )U
