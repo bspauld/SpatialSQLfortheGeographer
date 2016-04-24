@@ -1,6 +1,6 @@
 /*#################################################################################################################################
 	
-	Script Name:	Calculate_Distance.sql
+	Script Name:	CalculateDistance.sql
 	Purpose:		This script calculates the distance between two points using latitude and longitude measurements.
 					
 					This example is using the Natural Earth State/Provinces dataset. The
