@@ -26,3 +26,13 @@ geom.STEnvelope() as BoundingBox,
 geom.STEnvelope().ToString() as BoundingBoxString
 from dbo.States_Provinces
 where NAME_1 = 'Massachusetts'
+
+--Example that returns the min/max coordinates for the four corners using STEnvelope and STPoint
+select
+	 MIN(geom.STEnvelope().STPointN(1).STX) as ULX
+	,MIN(geom.STEnvelope().STPointN(1).STY) as ULY 
+	,MAX(geom.STEnvelope().STPointN(3).STX) as LRX 
+	,MAX(geom.STEnvelope().STPointN(3).STY) as LRY 
+from dbo.States_Provinces
+where NAME_1 = 'Massachusetts'
+
