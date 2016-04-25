@@ -10,5 +10,5 @@
   
 */
 
-update dbo.State_Provinces
+update dbo.States_Provinces
 set geom = geometry::STGeomFromWKB(geom.MakeValid().STAsBinary(),geom.STSrid)
