@@ -13,9 +13,6 @@
 */
 
 --Using variables
-use Spatial_Database
-go
-
 DECLARE @poly_geom geometry
 select @poly_geom = geom.STAsText()
 From dbo.States_Provinces
@@ -24,10 +21,10 @@ where dbo.States_Provinces.name_1 like '%Massachusetts%'
 DECLARE @line_geom geometry
 select @line_geom = geom.STAsText()
 from dbo.Roads
-where ID = 2974
+where IDval = 2974
 
 SELECT @poly_geom.STIntersects(@line_geom) as IntersectValue, @poly_geom as input1, @line_geom as input2
 
 --Using Inner Join - this should work.  I haven't tested it :( Will return all records that return TRUE intersection (1)
 
-select From dbo.States_Provinces P inner join dbo.Roads I inner join on P.geom.STIntersects(I.geom) = 1
+select * From dbo.States_Provinces P inner join dbo.Roads I on P.geom.STIntersects(I.geom) = 1 where p.NAME_1 = 'Massachusetts'
