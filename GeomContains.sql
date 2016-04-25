@@ -21,7 +21,7 @@ where dbo.States_Provinces.name_1 = 'Massachusetts'
 
 DECLARE @pointgeom geometry
 select @pointgeom = geom.STAsText()
-from Spatial_Database.dbo.Populated_Places
+from dbo.Populated_Places
 where NAMEASCII = 'Boston'
 
 SELECT @poly_geom.STContains(@pointgeom) as ContainValue, @pointgeom as input1, @poly_geom as input2
