@@ -1,5 +1,5 @@
 # SpatialSQLfortheGeographer
-Sample data and scripts using Microsoft spatial SQL. Code developed using SQL Server 2008 R2, but everything still works as of April 2016. Any suggestions or improvements are welcome.
+Sample data and scripts using Microsoft spatial SQL. Code developed using SQL Server 2008 R2, but everything still works as of April 2016 up through Microsoft SQL Server 2014. Any suggestions or improvements are welcome.
 
 All scripts and tables used here are based on the <a href="https://msdn.microsoft.com/en-us/library/cc280487.aspx">GEOMETRY data type</a>
 
