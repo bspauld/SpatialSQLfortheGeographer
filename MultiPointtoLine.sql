@@ -82,4 +82,4 @@ DEALLOCATE db_cursor
 
 --Select results from the temp table.
 use Spatial_Database
-select * from #Sandy_hur_tracks
+select * from #Sandy_hur_tracks 
