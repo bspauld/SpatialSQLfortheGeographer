@@ -33,4 +33,4 @@ SELECT f.ADVISNUM as ADVISNUM
 	  ,Geometry::STLineFromText('LINESTRING('+cast(cast(f.lon as float)as varchar)+' '+cast(cast(f.lat as float)as varchar)+','+cast(cast(t.lon as float)as varchar)+' '+cast(cast(t.lat as float)as varchar)+')', 4326) as coordsegment
 FROM [dbo].[Distinct_Points] f join
 [dbo].[Distinct_Points] t on f.ADVISNUM = t.ADVISNUM
-where f.[rowID] = t.[rowID] -1  
+where f.[rowID] = t.[rowID] -1   
