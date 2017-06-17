@@ -5,8 +5,8 @@
   
                 Two examples are provided here - one using variables, the other using an inner join
   
-                from here: http://www.gisdoctor.com/site/2011/11/15/spatial-sql-geographer-part-1-spatial-sql/
-  
+                from here: http://www.benjaminspaulding.com/2011/11/15/spatial-sql-geographer-part-1-spatial-sql/
+                
   Instructions: Set proper table and field names and run the script.
   Author: Ben Spaulding - 2016
   
